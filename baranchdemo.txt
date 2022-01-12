@@ -1,0 +1,3 @@
+master
+this text on brucnh master 
+to end edit text on cat need to press fn+contro+D(probably twise)
