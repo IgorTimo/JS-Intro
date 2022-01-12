@@ -1,4 +1,2 @@
 this is mistake. it's shoudn't be here
-'d'
-^D
-EOF(^D)
+
