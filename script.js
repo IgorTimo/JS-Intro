@@ -27,23 +27,7 @@ window.addEventListener("click", (event) => {
 // links.forEach((link) => {console.log(link.textContent)});
 // links.forEach((link) => {console.log(link.title)});
 
-const namesArr = [
-  "ivan",
-  "egor",
-  "jack",
-  "nina",
-  "ivan",
-  "egor",
-  "jack",
-  "nina",
-  "ivan",
-  "egor",
-  "jack",
-  "nina",
-  "ivan",
-  "egor",
-  "jack",
-];
+const namesArr = ["ivan", "egor", "jack", "nina",  "ivan", "egor", "jack", "nina", "ivan", "egor", "jack", "nina", "ivan", "egor", "jack",];
 
 
 const nameCounter = namesArr.reduce((acc, name) =>{
@@ -74,6 +58,7 @@ autoDrive();
 autoDriveBind();
 motoDriveBind();
 
+//Сохранить карты из интернета
 let cards = [];
 
 fetch("https://deckofcardsapi.com/api/deck/new/draw/?count=52")
@@ -81,15 +66,9 @@ fetch("https://deckofcardsapi.com/api/deck/new/draw/?count=52")
 .then(data => cards = [ ...data.cards])
 .then(() => console.log(cards));
 
-
-
 console.log(cards);
 
-//Test change
 
-//One more change
-
-//this change for command amend
 
 
 
